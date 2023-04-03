@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form cơ bản</title>
+</head>
+<style>
+  .phongchu {font-family:"Lucida Grande" "Lucida Sans Unicode""Tahoma""sans-serif"}
+</style>
+<body>
+<form method="get" action="simpleform.html" class ="phongchu"<br>
+<h1>Order Form</h1>
+<!-- cách ra cho dễ nhìn </!-->
+<h3><b>what would you like to buy?</b></h3>
+<select>
+  <option>A (240.000 VND)</option>
+  <option>B (500.000 VND)</option>
+  <option>C (550.000 VND)</option>
+</select>
+<!-- cách ra cho dễ nhìn </!-->
+<h3> How many would you like to order?</h3>
+<input type="radio" name="giá"><b>1-240.000 VND </b> <br>
+<input type="radio" name="giá"><b>1-500.000 VND </b> <br>
+<input type="radio" name="giá"><b>1-550.000 VND </b> <br>
+<!-- cách ra cho dễ nhìn </!-->
+<h3>Name <span style="color: red">*</span> </h3>
+<input type="text" name="FirstName" placeholder="FirstName">
+<input type="password" name="FirstName" placeholder="Password">
+<h3><b> Email</b></h3>
+<input type="text" name="Email" placeholder="Email">
+<!-- cách ra cho dễ nhìn </!-->
+<h3>Phone Number</h3>
+<input type="text" name="Phone 1" size="6"/>-
+<input type="text" name="Phone 2" size="6"/>-
+<input type="text" name="Phone 3" size="6"/>
+<p><input type="submit" name="submit" value="submit" </p>
+</body>
+</html>
